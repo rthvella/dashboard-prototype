@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto:400,700,900");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+div#headertop{
+  margin: 0;
+  width:100%;
+  height:50px;
+  background-color: #434343;
+}
+
+.logo{
+  float: :left;
+  padding: 8px;
+}
+
+.logo a{
+  font-size: 1.8em;
+  color:#56585A;
+}
+
+.logo a span{
+  font-weight: 300;
+}
+
+.logo1{
+  float: :left;
+  padding: 8px;
+}
+
+.logo1 a{
+  font-size: 1.8em;
+  color:#EDEDED;
+}
+
+.logo1 a span{
+  font-weight: 300;
+}
+
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background: #e3e3e3;
+      position: relative;
+}
+
+ul li {
+      display:inline-block;
+}
+
+ul li a {
+      color: #292929;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+}
+
+ul li:hover {
+      background: lightgrey;
+}
+
+ul ul {
+      position: absolute;
+      min-width: 200px;
+      background: lightgrey;
+      display: none;
+}
+
+ul ul li {
+      display: block;
+      background: #e3e3e3;
+}
+
+ul li:hover ul {
+      display: block;
+}
+
+ul li i {
+      color: #292929;
+      float: right;
+      padding-left: 20px;
+}
+
+nav div {
+      background: lightgrey;
+      color: #292929;
+      font-size: 24px;
+      padding: 0.6em;
+      cursor: pointer;
+      display: none;
+}
+
+@media(max-width: 768px) {
+      nav div {
+            display: block;
+      }
+
+      ul {
+            display: none;
+            position: static;
+            background: #e3e3e3;
+      }
+
+      ul li {
+            display: block;
+      }
+
+      ul ul {
+            position: static;
+            background: #e3e3e3;
+      }
+}
+
+.content{
+  width: auto;
+  margin-left: 0px;
+  height: 100%;
+  background-color: #FFFFFF;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+.content p{
+  color: #424242;
+  font-size: 0.73em;
+}
+
+div#box {
+  margin-top: 15px;
+}
+
+div#box .box-top {
+  color: #fff;
+  text-shadow: 0px 1px #000;
+  background-color: #520541;
+  padding: 5px;
+  padding-left: 15px;
+  font-weight: 300;
+}
+
+div#box .box-panel {
+  padding: 15px;
+  background-color: #F4F4F4;
+}
